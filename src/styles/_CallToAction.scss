@@ -1,0 +1,27 @@
+.cta {
+  margin-top: 2rem;
+  width: 80%;
+  padding: 0.4rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  // position: relative;
+
+  &__input,
+  &__btn {
+    padding: 1rem;
+    font-family: inherit;
+    border-radius: inherit;
+    border: none;
+  }
+
+  &__input,
+  &__input:focus {
+    outline: none;
+  }
+
+  &__btn {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,26 @@
+.hero {
+  height: 100vh;
+  display: flex;
+
+  &__inner {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+
+    &--description,
+    &--img {
+      margin: 0.7rem;
+      padding: 1rem;
+    }
+  }
+}
+
+.inner__description {
+  &--heading {
+    font-size: 6rem;
+  }
+
+  &--body {
+    margin-top: 2rem;
+  }
+}
