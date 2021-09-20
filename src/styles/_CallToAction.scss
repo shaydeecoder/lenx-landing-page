@@ -14,15 +14,27 @@
     border: none;
   }
 
-  &__input {
-    flex-grow: 3;
-  }
-
   &__input,
   &__input:focus {
     outline: none;
-    background-color: transparent;
+    background-color: black;
     color: white;
+  }
+
+  &__input {
+    flex-grow: 3;
+    margin-right: 0.5rem;
+
+    &:-webkit-autofill {
+      -webkit-text-fill-color: white;
+      -webkit-box-shadow: 0 0 0 30px black inset;
+
+      &:hover,
+      &:focus,
+      &:active {
+        -webkit-box-shadow: 0 0 0 30px black inset;
+      }
+    }
   }
 
   &__btn {
