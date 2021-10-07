@@ -4,14 +4,19 @@
     flex-wrap: wrap;
   }
 
-  &__card {
-    min-height: 15rem;
-    margin: 1rem;
-    padding: 2.5rem;
-    border: 2px solid black;
-    // min-width: 45%;
-    // flex-basis: 45%;
-    // flex: (flex-grow value) (flex-shrink value) (flex-basis value)
-    flex: 1 0 45%;
+  &__title-wrap {
+    margin-bottom: 1.5rem;
+  }
+
+  &__heading {
+    margin-bottom: 1rem;
+    font-size: 5rem;
+  }
+
+  &__sub-heading {
+    margin: auto;
+    max-width: 37rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
   }
 }

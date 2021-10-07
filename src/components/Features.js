@@ -12,6 +12,10 @@ const Features = () => {
       <div className="container">
         <div className="features__title-wrap text-center">
           <h2 className="features__heading">Features</h2>
+          <p className="features__sub-heading">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sequi
+            eius velit ipsam fugit officia dolor cupiditate quod quam mollitia?
+          </p>
         </div>
 
         <div className="features__cards-wrap">
