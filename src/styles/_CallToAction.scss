@@ -6,6 +6,10 @@
   border-radius: 6px;
   display: flex;
 
+  &--m-auto {
+    margin: auto;
+  }
+
   &__input,
   &__btn {
     padding: 1rem;

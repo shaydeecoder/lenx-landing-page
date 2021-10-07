@@ -1,3 +1,4 @@
+import SectionTitle from "./SectionTitle";
 import FeaturesCard from "./FeaturesCard";
 
 // Importing icons
@@ -10,13 +11,11 @@ const Features = () => {
   return (
     <section className="features container-fluid section">
       <div className="container">
-        <div className="features__title-wrap text-center">
-          <h2 className="features__heading">Features</h2>
-          <p className="features__sub-heading">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sequi
-            eius velit ipsam fugit officia dolor cupiditate quod quam mollitia?
-          </p>
-        </div>
+        <SectionTitle
+          heading="Features"
+          subHeading="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sequi
+            eius velit ipsam fugit officia dolor cupiditate quod quam mollitia?"
+        />
 
         <div className="features__cards-wrap">
           <FeaturesCard

@@ -1,6 +1,10 @@
-const CallToAction = () => {
+const CallToAction = ({ ctaMauto }) => {
   return (
-    <form className="cta" action="#" method="">
+    <form
+      className={`cta ${ctaMauto ? "cta--m-auto" : ""}`}
+      action="#"
+      method=""
+    >
       <input
         className="cta__input"
         type="text"

@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import "./styles/App.scss";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <Fragment>
       <Hero />
       <Features />
+      <Footer />
     </Fragment>
   );
 };
